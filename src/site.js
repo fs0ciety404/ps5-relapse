@@ -48,7 +48,7 @@ function getWebKitBase() {
   throw new Error("WebKit base not found");
 }
 
-const AUTO_PAYLOADS = ["a53_ppr_install.elf", "kstuff-ng.elf", "shadowmountplus.elf", "etaHEN.elf"];
+const AUTO_PAYLOADS = ["kstuff-ng.elf", "shadowmountplus.elf", "pldmgr_v0.5.2.elf", "nanodns.elf", "etaHEN.elf"];
 
 async function sendPayloadViaChain(name, chain, p) {
   writeLog(`Loading ${name}...`, "info");
