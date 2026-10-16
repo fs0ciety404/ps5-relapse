@@ -48,7 +48,7 @@ function getWebKitBase() {
   throw new Error("WebKit base not found");
 }
 
-const AUTO_PAYLOADS = ["pldmgr_v0.5.2.elf"];
+const AUTO_PAYLOADS = ["ProsperoMgr.elf"];
 
 async function sendPayloadViaChain(name, chain, p) {
   writeLog(`Loading ${name}...`, "info");
