@@ -48,7 +48,7 @@ function getWebKitBase() {
   throw new Error("WebKit base not found");
 }
 
-const AUTO_PAYLOADS = ["elfldr-ps5-1360.elf, ps5upload-12.6.26.elf"];
+const AUTO_PAYLOADS = ["elfldr-ps5-1360.elf", "ps5upload-12.6.26.elf"];
 
 async function sendPayloadViaChain(name, chain, p) {
   writeLog(`Loading ${name}...`, "info");
